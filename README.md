@@ -7,3 +7,4 @@ Photo credit to Anthony for the presentation photo!
 To-do:
 
 - Make whole background of cloud go yellow even when hovering over text
+- Add in screen captures of projects
