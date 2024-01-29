@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Footer from "@/components/Footer";
 import { Comfortaa } from 'next/font/google';
+import Header from "@/components/Header"
 
 const font = Comfortaa({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+        <Header />
         {children}
         <Footer />
         </body>

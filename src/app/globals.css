@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+svg:hover {
+  fill: red
+}
+
+.clip{
+  clip-path: url
+}
+
+#cloud:hover{
+  fill: burlywood
+}
