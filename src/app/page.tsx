@@ -7,9 +7,9 @@ export default function Home() {
 			<h1 className="text-3xl text-green m-8">
 				nellie | autistic coder and public speaker
 			</h1>
-			<section className="bg-yellow">Hello!</section>
+			<section className="bg-cream p-4 rounded-2xl">Hello! Please head to the clouds below to discover more about my life experiences </section>
 			<Image
-				className="rounded m-8"
+				className="rounded-2xl m-8"
 				src="/portrait.jpg"
 				alt="Nellie presenting during her graduation from a full stack bootcamp"
 				height={427.2}

@@ -13,6 +13,13 @@ Credit to this for helping me solve a tricky SVG problem! https://stackoverflow.
 
 This was so useful too: https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image 
 
-Photo by <a href="https://unsplash.com/@wimvanteinde?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wim van 't Einde</a> on <a href="https://unsplash.com/photos/white-clouds-in-blue-sky-8hnTBXjJd2s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Clouds background photo by <a href="https://unsplash.com/@wimvanteinde?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wim van 't Einde</a> on <a href="https://unsplash.com/photos/white-clouds-in-blue-sky-8hnTBXjJd2s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
-  
+Credit to these:
+https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css 
+
+https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
+
+https://stackoverflow.com/questions/28756890/fill-svg-path-element-with-a-background-image-without-tiling-or-scaling 
+
+For fill: https://stackoverflow.com/questions/69679382/how-to-change-height-of-nextjs-image-tag-according-to-screen-width 
