@@ -22,8 +22,7 @@ export default function About() {
 			></Image>
 			<section>
 				<p>
-					I've been autistic as long as I've existed,but I was diagnosed at the
-					age of 25 through the Lorna Wing Centre
+					I&apos;ve been autistic as long as I&apos;ve existed,but I was diagnosed as having Autism Spectrum Disorder (ASD) at the age of 25 through the Lorna Wing Centre
 				</p>
 				{/* <a href="www.autism.org.uk/what-we-do/autism-training-and-best-practice/diagnostic-services>Lorna Wing Centre</a> */}
 			</section>
