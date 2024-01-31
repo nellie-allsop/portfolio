@@ -23,3 +23,5 @@ https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-backgro
 https://stackoverflow.com/questions/28756890/fill-svg-path-element-with-a-background-image-without-tiling-or-scaling 
 
 For fill: https://stackoverflow.com/questions/69679382/how-to-change-height-of-nextjs-image-tag-according-to-screen-width 
+
+For hero image: https://www.perssondennis.com/articles/how-to-make-a-hero-image-in-nextjs

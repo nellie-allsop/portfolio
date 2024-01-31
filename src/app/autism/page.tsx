@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
 	title: "Autism",
@@ -9,17 +10,23 @@ export const metadata: Metadata = {
 
 export default function About() {
 	return (
-		<div className="flex flex-col items-center min-h-screen">
-			<div className="w-full">
-				{/* <Image className="object-cover"
-					src="/autism.svg"
-					alt="Nellie posing for photographs while wearing a National Autistic Society t-shirt and holding a campaigns placard"
-					height={500}
-					width={1000}
-					
-				></Image> */}
+		<div className="flex flex-col items-center min-h-screen relative w-screen">
+			<div className="flex justify-center items-center h-[250px] bg-blue w-[730.6px]">
+				<h1 className="text-cream text-8xl text-center ">Autism</h1>
 			</div>
-			<h1 className="font-bold text-4xl text-purple-500">Autism</h1>
+			<Image
+				className="object-cover opacity-25"
+				src="/autism.svg"
+				alt="Nellie posing for photographs while wearing a National Autistic Society t-shirt and holding a campaigns placard"
+				layout="fill"
+			></Image>
+			<section>
+				<p>
+					I've been autistic as long as I've existed,but I was diagnosed at the
+					age of 25 through the Lorna Wing Centre
+				</p>
+				{/* <a href="www.autism.org.uk/what-we-do/autism-training-and-best-practice/diagnostic-services>Lorna Wing Centre</a> */}
+			</section>
 		</div>
 	);
 }

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import React from "react";
+import Video from "@/components/Video"
 
 export const metadata: Metadata = {
 	title: "Coding",
@@ -14,6 +15,7 @@ export default function About() {
 			<p>Projects so far:</p>
 			<ul>
 				<li>DnD Companion</li>
+				<Video />
 				<li>crochog</li>
 				<li>PantryPet</li>
 				<li>Whack a bug</li>
@@ -23,6 +25,7 @@ export default function About() {
 				<li>A crochet pattern builder</li>
 				<li>A Guess that vine quiz</li>
 			</ul>
+
 		</div>
 	);
 }
