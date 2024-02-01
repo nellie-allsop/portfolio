@@ -41,3 +41,5 @@ For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextj
 Required:
 
 - react-player
+
+Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
