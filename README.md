@@ -37,3 +37,7 @@ https://css-tricks.com/scale-svg/
 https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
 
 For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextjs
+
+Required:
+
+- react-player
