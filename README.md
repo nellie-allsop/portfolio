@@ -40,6 +40,8 @@ For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextj
 
 Required:
 
-- react-player
+- react hover video player
 
 Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
+
+https://pjausovec.medium.com/how-to-fix-error-ts7016-could-not-find-a-declaration-file-for-module-xyz-has-an-any-type-ecab588800a8

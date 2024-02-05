@@ -12,6 +12,7 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-hover-video-player": "^10.0.1",
     "react-player": "^2.14.1"
   },
   "devDependencies": {
