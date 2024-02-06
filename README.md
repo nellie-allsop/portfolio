@@ -45,3 +45,5 @@ Required:
 Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
 
 https://pjausovec.medium.com/how-to-fix-error-ts7016-could-not-find-a-declaration-file-for-module-xyz-has-an-any-type-ecab588800a8
+
+Helpful for grid in tailwind: https://refine.dev/blog/tailwind-grid/#setting-size-with-span and for grid in general https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-area 
