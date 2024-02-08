@@ -18,6 +18,10 @@ export default function About() {
 				<div className="col-span-1 row-span-1 h-2000 w-300">
 					<h3>DnD Companion</h3>
 					<DnDVideo />
+					<p>Objective: Create a companion app for Dungeons and Dragons players of all experience levels.</p>
+					<p>Solution: Worked alongside three fellow developers to create a mobile first, progressive web app</p>
+					{/* <p>Utilised: Javascript, React, MongoDB, HTML, CSS, Node.js, Express.js, Trello, Git hub, Vercel</p> */}
+					<p>Goals met by: pair and mob programming, daily stand ups</p>
 				</div>
 
 				<div>
