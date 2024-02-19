@@ -5,6 +5,7 @@ export default function Header() {
 	return (
 		<div className="bg-green text-white flex flex-col">
 			<nav className="flex justify-around m-4 text-2xl">
+				<Link href="/">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="50"
@@ -535,8 +536,18 @@ export default function Header() {
 						/>
 					</g>
 				</svg>
+				</Link>
 				<Link href="/" className="hover:bg-red focus:bg-blue">
 					Home
+				</Link>
+				<Link href="/autism" className="hover:bg-red focus:bg-blue">
+					Autism
+				</Link>
+				<Link href="/webdev" className="hover:bg-red focus:bg-blue">
+					Coding
+				</Link>
+				<Link href="/contact" className="hover:bg-red focus:bg-blue">
+					Contact
 				</Link>
 			</nav>
 		</div>
