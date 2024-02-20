@@ -25,7 +25,7 @@ export default function Autism() {
 					Autistic Society between 2015 and 2023 where I was able to speak to
 					thousands of people about autism and gain professional experience
 					working in the field of autism. During that period I also signed up to
-					be an 'expert by experience' with the National Autism Trainer Programme
+					be an &apos;expert by experience&apos; with the National Autism Trainer Programme
 					(NATP), which is jointly run by Anna Freud and AT-Autism.
 				</p>
 				<h2 className="text-4xl">Today</h2>
@@ -39,7 +39,7 @@ export default function Autism() {
 					employees are autistic, and one of the reasons for that is that so
 					many of those autistic people are probably undiagnosed or haven't
 					disclosed their autism diagnosis at work. But if I can help a handful
-					of employees at a handful of tech organisations, then I&apos;d be
+					of employees at a handful of tech organisations, then I&apos;ll be
 					happy!
 				</p>
 				{/* <a href="www.autism.org.uk/what-we-do/autism-training-and-best-practice/diagnostic-services>Lorna Wing Centre</a> */}

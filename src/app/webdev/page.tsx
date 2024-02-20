@@ -13,7 +13,7 @@ export default function About() {
 	return (
 		<div className="p-8 flex flex-col items-center min-h-screen">
 			<h1 className="font-bold text-4xl text-green p-2">Coding</h1>
-			<h2 className="p-2 text-2xl">Below are a selection of projects I've created so far, both in groups and as a solo endeavour. To see how each site works, hover over the corresponding image.</h2>
+			<h2 className="p-2 text-2xl">Below are a selection of projects I&apos;ve created so far, both in groups and as a solo endeavour. To see how each site works, hover over the corresponding image.</h2>
 			<div className="grid grid-cols-2 grid-rows-2 gap-10 h-200 w-400">
 				<div className="col-span-1 row-span-1 h-2000 w-300">
 					<h3>DnD Companion</h3>
