@@ -37,7 +37,7 @@ export default function Autism() {
 					can on autism, but particularly those in the tech sector. The truth
 					is, I can&apos;t tell you exactly what percentage of tech sector
 					employees are autistic, and one of the reasons for that is that so
-					many of those autistic people are probably undiagnosed or haven't
+					many of those autistic people are probably undiagnosed or haven&apos;t
 					disclosed their autism diagnosis at work. But if I can help a handful
 					of employees at a handful of tech organisations, then I&apos;ll be
 					happy!
