@@ -49,3 +49,5 @@ https://pjausovec.medium.com/how-to-fix-error-ts7016-could-not-find-a-declaratio
 Helpful for grid in tailwind: https://refine.dev/blog/tailwind-grid/#setting-size-with-span and for grid in general https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-area 
 
 A nice website for portfolio advice: https://www.upwork.com/en-gb/resources/4-ways-create-successful-freelancer-portfolio
+
+Huge credit to this person for the hamburger menu: https://www.youtube.com/watch?v=EtPRSidpxSU&t=612s

@@ -1,3 +1,5 @@
+"use client"
+
 import type { Metadata } from 'next'
 import './globals.css'
 import Footer from "@/components/Footer";
@@ -6,10 +8,10 @@ import Header from "@/components/Header"
 
 const font = Comfortaa({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Nellie Allsop | Aspiring dev and EbE',
-  description: 'Created using next.js, typescript and tailwind',
-}
+// export const metadata: Metadata = {
+//   title: 'Nellie Allsop | Aspiring dev and EbE',
+//   description: 'Created using next.js, typescript and tailwind',
+// }
 
 export default function RootLayout({
   children,
