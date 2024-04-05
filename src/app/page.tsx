@@ -10,7 +10,7 @@ export default function Home() {
 				<br></br>
 				This site is currently under construction 🏗️
 				<br></br>
-				If you'd like to contact me 🗣️
+				If you&apos;d like to contact me 🗣️
 				<br></br>
 				Please email ✉️ contact@nellieallsop.com
 				<br></br>
