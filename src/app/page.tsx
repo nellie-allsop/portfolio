@@ -6,9 +6,15 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center p-6">
 			<h1 className="text-3xl text-blue m-8">
-				Autism.
+				Hello👋
 				<br></br>
-				Where do I start?
+				This site is currently under construction 🏗️
+				<br></br>
+				If you&apos;d like to contact me 🗣️
+				<br></br>
+				Please email ✉️ contact@nellieallsop.com
+				<br></br>
+				Site relaunch ➡️ 22/04/24
 			</h1>
 			{/* <section className="2xl">Hello!</section> */}
 			{/* 
