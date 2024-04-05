@@ -5,6 +5,7 @@ import './globals.css'
 import Footer from "@/components/Footer";
 import { Comfortaa } from 'next/font/google';
 import Header from "@/components/Header"
+import {Providers} from "./providers";
 
 const font = Comfortaa({ subsets: ['latin'] })
 
@@ -19,12 +20,17 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className='dark'>
       <body className={font.className}>
-        <Header />
+        <Providers>
+        {/* <Header /> */}
         {children}
-        <Footer />
+        {/* <Footer /> */}
+        </Providers>
         </body>
     </html>
   )
 }
+
+
+

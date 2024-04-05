@@ -3,9 +3,14 @@
 @tailwind utilities;
 
 g:hover .cloud {
-	fill: #ffe66d;
+	fill: #f2a4cf;
 }
 
 g:hover text {
-	fill: #ff6b6b;
+	fill: #17ffea;
 }
+
+/* turq: "#17ffea",
+blue: "#94e1f9",
+pink: "#f2a4cf",
+yellow: "#fde072", */
