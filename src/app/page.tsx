@@ -6,14 +6,14 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col">
 			<section id="hero" className="flex">
-				<Image
+				{/* <Image
 					className="ml-96 ml-0 rounded-r-full float-left pt-12"
 					src="/Helper.jpg"
 					alt="A photo of Nellie"
 					height={5606}
 					width={3737}
 					loading="lazy"
-				></Image>
+				></Image> */}
 				<h1 className="text-3xl text-blue m-8 self-center">
 					Autism.
 					<br></br>
