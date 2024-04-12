@@ -8,7 +8,7 @@ export default function Header() {
 	const [header, setHeader] = useState(false);
 	return (
 		<div>
-			<nav className="w-full text-black bg-white flex text-2xl flex-col fixed z-20">
+			<nav className="w-full text-black bg-white flex text-2xl flex-col fixed z-20 py-4">
 				<div className="px-3 mx-auto lg:max-w-6x1 justify-between md:items-center md:flex md:px-6">
 					<div>
 						<div className="flex justify-between items-center md:block">
@@ -53,40 +53,24 @@ export default function Header() {
 						>
 							<ul className="h-screen md:h-8 justify-center items-center md:flex">
 								<li className="md:p-5">
-									<Link
-										href="/"
-										onClick={() => setHeader(!header)}
-										className="hover:bg-red focus:bg-blue"
-									>
+									<Link href="/" onClick={() => setHeader(!header)}>
 										Home
 									</Link>
 								</li>
 								<li className="md:p-5">
 									{" "}
-									<Link
-										href="/autism"
-										onClick={() => setHeader(!header)}
-										className="hover:bg-red focus:bg-blue"
-									>
+									<Link href="/autism" onClick={() => setHeader(!header)}>
 										Autism
 									</Link>
 								</li>
 								<li className="md:p-5">
-									<Link
-										href="/webdev"
-										onClick={() => setHeader(!header)}
-										className="hover:bg-red focus:bg-blue"
-									>
+									<Link href="/webdev" onClick={() => setHeader(!header)}>
 										Coding
 									</Link>
 								</li>
 								<li className="md:p-5">
 									{" "}
-									<Link
-										href="/contact"
-										onClick={() => setHeader(!header)}
-										className="hover:bg-red focus:bg-blue"
-									>
+									<Link href="/contact" onClick={() => setHeader(!header)}>
 										Contact
 									</Link>
 								</li>

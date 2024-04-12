@@ -1,44 +1,44 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@nextui-org/react";
+import heroImage from "/public/Helper.jpg";
 
 export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col">
 			<section id="hero" className="flex">
-				{/* <Image
-					className="ml-96 ml-0 rounded-r-full float-left pt-12"
-					src="/Helper.jpg"
+				<Image
+					className="ml-0 rounded-r-full float-left "
+					src={heroImage}
 					alt="A photo of Nellie"
-					height={5606}
-					width={3737}
-					loading="lazy"
-				></Image> */}
-				<h1 className="text-3xl text-blue m-8 self-center">
-					Autism.
-					<br></br>
-					Where do I start?!
-				</h1>
+					style={{ maxWidth: "50%", height: "auto" }}
+				></Image>
+
+				<div id="hero-text" className="flex flex-col">
+					<h1 className="mt-44 text-9xl text-blue ">Autism.</h1>
+					<h2 className="text-blue text-4xl">Where do I start?!</h2>
+					<p>Hi there, I'm Nellie. I've been autistic my entire life, I just didn't know it until 2020. I can help you to learn more about people like me.</p>
+				</div>
 			</section>
 
-			<p>Interested?</p>
+			{/* <p>Interested?</p>
 			<Button
 				variant="shadow"
 				radius="lg"
 				className="bg-gradient-to-t from-turq to-pink"
 			>
 				Contact me
-			</Button>
+			</Button> */}
 
-			<div className="self-center">
+			{/* <div className="self-center">
 				<div
 					className="
 				flex m-8
 				"
-				>
-					<p>Still not sure?</p>
-					{/* Cloud one autism */}
-					<div>
+				> */}
+			{/* <p>Still not sure?</p> */}
+			{/* Cloud one autism */}
+			{/* <div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="442.33"
@@ -79,9 +79,9 @@ export default function Home() {
 								</g>
 							</Link>
 						</svg>
-					</div>
-					{/* Cloud two coding */}
-					<div>
+					</div> */}
+			{/* Cloud two coding */}
+			{/* <div>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="442.33"
@@ -120,9 +120,9 @@ export default function Home() {
 								</g>
 							</Link>
 						</svg>
-					</div>
-				</div>
-				<section>
+					</div> */}
+			{/* </div> */}
+			{/* <section>
 					<h2>Current voluntary roles</h2>
 
 					<ul>
@@ -133,8 +133,8 @@ export default function Home() {
 							Excellence Cambridge
 						</li>
 					</ul>
-				</section>
-			</div>
+				</section> */}
+			{/* </div> */}
 		</main>
 	);
 }

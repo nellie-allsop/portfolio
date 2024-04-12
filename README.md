@@ -57,3 +57,5 @@ This was useful: https://www.telerik.com/blogs/how-to-use-svg-react
 Shout out to Boxy svg for the logo
 
 I used Next UI
+
+Thanks to this creator: https://www.youtube.com/watch?v=IU_qq_c_lKA
