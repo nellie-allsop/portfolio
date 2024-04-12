@@ -17,7 +17,7 @@ export default function Home() {
 				<div id="hero-text" className="flex flex-col">
 					<h1 className="mt-44 text-9xl text-blue ">Autism.</h1>
 					<h2 className="text-blue text-4xl">Where do I start?!</h2>
-					<p>Hi there, I'm Nellie. I've been autistic my entire life, I just didn't know it until 2020. I can help you to learn more about people like me.</p>
+					<p>Hi there, I&apos;m Nellie. I&apos;ve been autistic my entire life, I just didn&apos;t know it until 2020. I can help you to learn more about people like me.</p>
 				</div>
 			</section>
 
