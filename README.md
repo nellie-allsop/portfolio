@@ -59,3 +59,10 @@ Shout out to Boxy svg for the logo
 I used Next UI
 
 Thanks to this creator: https://www.youtube.com/watch?v=IU_qq_c_lKA
+
+https://gsap.com/community/forums/topic/19861-usage-with-typescript/
+
+https://www.youtube.com/watch?v=Z5iWr6Srsj8
+
+https://codesandbox.io/p/devbox/optimistic-nash-p90i0?file=%2Fpages%2Findex.js
+

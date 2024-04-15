@@ -44,7 +44,7 @@ export default function Autism() {
 					diagnosis at work. But if I can help a handful of employees at a
 					handful of tech organisations, then I&apos;ll be happy!
 				</p>
-				{/* <a href="www.autism.org.uk/what-we-do/autism-training-and-best-practice/diagnostic-services>Lorna Wing Centre</a> */}
+
 			</div>
 		</div>
 	);
