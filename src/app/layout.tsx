@@ -1,19 +1,20 @@
 "use client";
 
 // import type { Metadata } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import { Comfortaa } from "next/font/google";
+import { Cabin } from "next/font/google";
 import Header from "@/components/Header";
 import { Providers } from "./providers";
-import VennDiagram from "@/components/VennDiagram"
-import Testimonials from "@/components/Testimonials"
-import Offer from "@/components/Offer"
-import CTA from "@/components/CTA"
-import Contact from "@/components/Contact"
-import WhyMe from "@/components/WhyMe"
+import VennDiagram from "@/components/VennDiagram";
+import Testimonials from "@/components/Testimonials";
+import Offer from "@/components/Offer";
+import CTA from "@/components/CTA";
+import Contact from "@/components/Contact";
+import WhyMe from "@/components/WhyMe";
 
-const font = Comfortaa({ subsets: ["latin"] });
+const font = Cabin({ subsets: ["latin"] });
 
 // export const metadata: Metadata = {
 //   title: 'Nellie Allsop | Aspiring dev and EbE',
@@ -39,6 +40,7 @@ export default function RootLayout({
 					<Contact />
 					<Footer />
 				</Providers>
+				<GoogleTagManager gtmId="G-ZJ22HDS4PL" />
 			</body>
 		</html>
 	);

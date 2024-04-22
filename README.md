@@ -66,3 +66,4 @@ https://www.youtube.com/watch?v=Z5iWr6Srsj8
 
 https://codesandbox.io/p/devbox/optimistic-nash-p90i0?file=%2Fpages%2Findex.js
 
+A helpful video on google tag manager and Next:https://www.youtube.com/watch?v=QbUfVzc23iw

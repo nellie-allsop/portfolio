@@ -16,7 +16,7 @@ export default function Home() {
 				></Image>
 
 				<div id="hero-text" className="flex flex-col">
-					<h1 className="mt-44 text-9xl text-blue ">Autism.</h1>
+					<h1 className="mt-44 text-9xl text-blue font-bold">Autism.</h1>
 					<h2 className="text-blue text-4xl">Where do I start?!</h2>
 					<p>
 						Hi there, I&apos;m Nellie. I&apos;ve been autistic my entire life, I
