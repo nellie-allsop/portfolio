@@ -14,7 +14,7 @@ export default function Home() {
 				<br></br>
 				Please email ✉️ contact@nellieallsop.com
 				<br></br>
-				Site relaunch ➡️ 22/04/24
+				Site relaunch ➡️ coming soon...
 			</h1>
 			{/* <section className="2xl">Hello!</section> */}
 			{/* 
