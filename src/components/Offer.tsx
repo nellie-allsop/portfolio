@@ -1,12 +1,16 @@
+import { Button } from "@nextui-org/react";
+
 export default function Offer() {
 	return (
 		<div>
 			<h2>What I can offer you</h2>
-			<p>- Introductory talks on autism (tech-sector specific or more general)</p>
+			<p>
+				- Introductory talks on autism (tech-sector specific or more general)
+			</p>
 			<p>- Guidance on how to best support your employees</p>
 			<p>
-				- (NHS trusts only)Co-delivery of the Oliver McGowan Mandatory Training on
-				Learning Disability and Autism programme (Tier 2) and/or the National
+				- (NHS trusts only)Co-delivery of the Oliver McGowan Mandatory Training
+				on Learning Disability and Autism programme (Tier 2) and/or the National
 				Autism Trainer Programme as an autistic expert by lived experience
 			</p>
 
@@ -19,6 +23,14 @@ export default function Offer() {
 				But if I can help a handful of employees at a handful of tech
 				organisations, then I&apos;ll be happy!
 			</p>
+			<p>Interested?</p>
+			<Button
+				variant="shadow"
+				radius="lg"
+				className="bg-gradient-to-t from-orange to-pink"
+			>
+				Contact me
+			</Button>
 		</div>
 	);
 }

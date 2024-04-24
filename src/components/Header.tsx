@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import logo from "/public/SVG final.svg";
+import logo from "/public/Logo.svg";
 
 export default function Header() {
 	const [header, setHeader] = useState(false);
@@ -16,7 +16,7 @@ export default function Header() {
 							<Link href="/" onClick={() => setHeader(!header)}>
 								<Image
 									src={logo}
-									alt="The site logo. It is a circle with a gradient of colours in it, from yellow through to pink then blue and then turqouise."
+									alt="The site logo. It is a circle with a gradient of colours in it, from orange through to pink then blue."
 									width={40}
 									height={40}
 								></Image>

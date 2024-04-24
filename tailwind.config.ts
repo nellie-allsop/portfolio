@@ -11,10 +11,9 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				turq: "#17ffea",
-				blue: "#94e1f9",
-				pink: "#f2a4cf",
-				yellow: "#fde072",
+				orange: "#FF8E0A",
+				pink: "#DB5D98",
+				blue: "#2BCDFF",
 			},
 		},
 	},

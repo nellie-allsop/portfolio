@@ -1,30 +1,9 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Button } from "@nextui-org/react";
-import heroImage from "/public/Helper.jpg";
 
 
 export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col">
-			<section id="hero" className="flex">
-				<Image
-					className="ml-0 rounded-r-full float-left "
-					src={heroImage}
-					alt="A photo of Nellie"
-					style={{ maxWidth: "50%", height: "auto" }}
-				></Image>
 
-				<div id="hero-text" className="flex flex-col">
-					<h1 className="mt-44 text-9xl text-blue font-bold">Autism.</h1>
-					<h2 className="text-blue text-4xl">Where do I start?!</h2>
-					<p>
-						Hi there, I&apos;m Nellie. I&apos;ve been autistic my entire life, I
-						just didn&apos;t know it until 2020. I can help you to learn more
-						about people like me.
-					</p>
-				</div>
-			</section>
 
 			<div>
 				
@@ -32,14 +11,7 @@ export default function Home() {
 
 			
 
-			{/* <p>Interested?</p>
-			<Button
-				variant="shadow"
-				radius="lg"
-				className="bg-gradient-to-t from-turq to-pink"
-			>
-				Contact me
-			</Button> */}
+
 
 			{/* <div className="self-center">
 				<div

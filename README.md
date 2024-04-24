@@ -67,3 +67,5 @@ https://www.youtube.com/watch?v=Z5iWr6Srsj8
 https://codesandbox.io/p/devbox/optimistic-nash-p90i0?file=%2Fpages%2Findex.js
 
 A helpful video on google tag manager and Next:https://www.youtube.com/watch?v=QbUfVzc23iw
+
+This for multiple fonts in a Next.js website: https://medium.com/@a.pirus/simplifying-multiple-fonts-styling-in-next-js-13-with-css-variables-cb57e9707693
