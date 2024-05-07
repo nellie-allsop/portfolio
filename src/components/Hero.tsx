@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import hero from "/public/Hero.jpg";
+import Link from "next/link";
 
 export default function Hero() {
 	return (
-		<section id="hero" className="flex">
+		<section id="hero" className="flex h-screen">
 			<Image
 				className="ml-0 rounded-r-full float-left "
 				src={hero}
@@ -22,6 +23,9 @@ export default function Hero() {
 					just didn&apos;t know it until 2020. I can help you to learn more
 					about people like me.
 				</p>
+				<Link href="/ebe">For NHS and health and social care staff </Link>
+				
+
 			</div>
 		</section>
 	);

@@ -59,18 +59,24 @@ export default function Header() {
 								</li>
 								<li className="md:p-5">
 									{" "}
-									<Link href="/autism" onClick={() => setHeader(!header)}>
-										Autism
+									<Link href="#evidence" onClick={() => setHeader(!header)}>
+										The evidence
 									</Link>
 								</li>
 								<li className="md:p-5">
-									<Link href="/webdev" onClick={() => setHeader(!header)}>
-										Coding
+									<Link href="#what-you-can-do" onClick={() => setHeader(!header)}>
+										What you can do
 									</Link>
 								</li>
 								<li className="md:p-5">
 									{" "}
-									<Link href="/contact" onClick={() => setHeader(!header)}>
+									<Link href="#about-nellie" onClick={() => setHeader(!header)}>
+										About Nellie
+									</Link>
+								</li>
+								<li className="md:p-5">
+									{" "}
+									<Link href="#contact" onClick={() => setHeader(!header)}>
 										Contact
 									</Link>
 								</li>

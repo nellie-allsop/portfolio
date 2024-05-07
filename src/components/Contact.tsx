@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Contact() {
 	return (
-		<div className="p-8 flex flex-col items-center">
+		<section id="contact" className="p-8 flex flex-col items-center h-screen">
 			<h1 className="font-bold text-4xl text-green p-2">Contact me</h1>
 			<p>
 				Please feel free to email me on
@@ -15,6 +15,6 @@ export default function Contact() {
 				</Link>
 				to discuss how I can best help you and your organisation.
 			</p>
-		</div>
+		</section>
 	);
 }

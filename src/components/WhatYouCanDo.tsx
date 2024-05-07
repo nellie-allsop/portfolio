@@ -1,0 +1,26 @@
+import { Button } from "@nextui-org/react";
+
+export default function WhatYouCanDo() {
+	return (
+		<section id="what-you-can-do"
+		className="flex flex-col h-screen">
+			<h1>What you can do</h1>
+			<h2>Still not sure?</h2>
+			<p>&quot;Working with Nellie has been impactful at an organisational, and
+			individual level. It has allowed us to review our approach and
+			understanding of what inclusivity means, making relevant reasonable
+			adjustments that support and enable all members of our community. Nellie
+			is an extremely competent speaker and facilitator, able to adapt the
+			conversation at relevant levels within the organisation and to varied
+			audiences.&quot;</p>
+			<h3 className="text-xl p-4 font-extrabold  ">James Adams, Founder and CEO, Tech Educators</h3>
+			<Button
+				variant="shadow"
+				radius="lg"
+				className="bg-gradient-to-t from-orange to-pink"
+			>
+				Contact me
+			</Button>
+		</section>
+	);
+}
