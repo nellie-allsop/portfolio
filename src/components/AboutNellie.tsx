@@ -1,12 +1,24 @@
 import React from "react";
 
 export default function AboutNellie() {
-	return <section id="about-nellie" className="flex flex-col h-screen">
-    
-    ABOUT ME
-    
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos exercitationem numquam soluta aliquid voluptate labore rerum inventore ab laudantium possimus illo dicta velit, neque deserunt, sunt nulla ratione, mollitia non?
+	return (
+		<section id="about-nellie" className="flex flex-col h-screen">
+			<h2>About Nellie</h2>
+			<p>
+				Worked at one of the UK&apos;s leading autism charities, speaking
+				publicly on autism and supporting autistic volunteers
+			</p>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, hic? Impedit dolor tempore sunt? Nesciunt totam iusto dicta mollitia quod aliquid itaque corrupti delectus distinctio et, fuga quos placeat illo.
-  </section>;
+			<p>
+				Took a leap into the Tech sector in 2023, experiencing first hand the
+				understanding of autism in the sector
+			</p>
+			<p>
+				Immersed in the current work around autism in society: National Autistic
+				Society autism insight panel member Community Advisory panel member for
+				the Autism Centre of Excellence Cambridge An expert by experience with
+				the National Autism Trainer Programme
+			</p>
+		</section>
+	);
 }

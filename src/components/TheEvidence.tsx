@@ -1,15 +1,27 @@
 import React from "react";
 
-
 export default function TheEvidence() {
 	return (
-		<section id="evidence" className="flex h-dvh">
-
-				evidence bby
-			
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatum cumque ipsam optio, ad voluptate. Doloremque, quo possimus dolore corrupti autem molestiae? At fugiat dolorem doloribus corrupti quo ex commodi.
-
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem commodi animi beatae, perferendis quasi dolor adipisci dolorum eos, voluptas nobis perspiciatis recusandae minima tempore, itaque officia doloremque sequi deserunt excepturi.
+		<section id="evidence" className="flex flex-col h-dvh">
+			<h2 className="heading">The evidence</h2>
+			<ul>
+				<li>
+					According to the Tech Talent Charter, 15% of UK tech workers
+					identified as autistic when asked (out of a representative 500 person
+					sample)
+				</li>
+				<li>
+					We can have above-average skills when it comes to areas like memory,
+					concentration and reliability
+				</li>
+				<li>More than 3 in 10 autistic adults have attempted suicide</li>
+				<li>Almost 8 in 10 autistic adults have a mental health condition</li>
+			</ul>
+			<p>
+				In sum: We are prevalent in your work force (even if you don&apos;t notice
+				our differences), we may excel in certain areas, and if not supported,
+				we may experience extreme distress. Here&apos;s where you come in...
+			</p>
 		</section>
 	);
 }
