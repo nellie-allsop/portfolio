@@ -64,3 +64,5 @@ For the NHS button: https://github.com/nextui-org/nextui/issues/1993
 For opening link in a new tab: https://stackoverflow.com/questions/65632698/how-to-open-a-link-in-a-new-tab-in-nextjs
 
 Down arrow = google icon
+
+This for next time: https://www.youtube.com/watch?v=pQ7tm_7S_Us
