@@ -47,7 +47,7 @@ export default function Header() {
 
 					<div>
 						<div
-							className={`flex-1 justify-self-center   md:block ${
+							className={`flex-1 justify-self-center md:block ${
 								header ? " md:p-1 block" : "hidden"
 							}`}
 						>

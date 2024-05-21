@@ -34,7 +34,6 @@ export default function RootLayout({
 		<html lang="en" className={`${paytoneOne.variable} ${cabin.variable}`}>
 			<body>
 				<Providers>
-					<Header />
 					{children}
 					<Footer />
 				</Providers>

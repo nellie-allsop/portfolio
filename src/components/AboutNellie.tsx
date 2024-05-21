@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutNellie() {
 	return (
-		<section id="about-nellie" className="flex flex-col h-screen">
+		<section id="about-nellie" className="flex flex-col h-screen pt-20">
 			<h2>About Nellie</h2>
 			<p>
 				Worked at one of the UK&apos;s leading autism charities, speaking

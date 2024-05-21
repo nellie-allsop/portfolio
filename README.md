@@ -1,19 +1,8 @@
 You can check out my portfolio site here: www.nellieallsop.com
 
-Colour palette idea: https://coolors.co/palette/1a535c-4ecdc4-f7fff7-ff6b6b-ffe66d
-
-Photo credit to Anthony for the presentation photo!
-
-To-do:
-
-- Make whole background of cloud go yellow even when hovering over text
-- Add in screen captures of projects
-
 Credit to this for helping me solve a tricky SVG problem! https://stackoverflow.com/questions/46972563/mouse-hover-not-working-as-expected-on-svg
 
 This was so useful too: https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
-
-Clouds background photo by <a href="https://unsplash.com/@wimvanteinde?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wim van 't Einde</a> on <a href="https://unsplash.com/photos/white-clouds-in-blue-sky-8hnTBXjJd2s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Credit to these:
 https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css
@@ -39,8 +28,6 @@ https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
 For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextjs
 
 Required:
-
-- react hover video player
 
 Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
 
@@ -75,3 +62,5 @@ Really helpful for dynamic viewport height help! https://www.youtube.com/watch?v
 For the NHS button: https://github.com/nextui-org/nextui/issues/1993
 
 For opening link in a new tab: https://stackoverflow.com/questions/65632698/how-to-open-a-link-in-a-new-tab-in-nextjs
+
+Down arrow = google icon

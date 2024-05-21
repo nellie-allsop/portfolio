@@ -3,15 +3,17 @@ import Image from "next/image";
 import hero from "/public/Hero.jpg";
 import Link from "next/link";
 import { Button } from "@nextui-org/react";
+import arrow from "/public/arrow.svg";
 
 export default function Hero() {
 	return (
-		<section id="hero" className="flex h-screen">
+		<section id="hero" className="flex h-screen pt-20">
 			<Image
-				className="ml-0 rounded-r-full float-left "
+				className=" rounded-r-full"
 				src={hero}
+				sizes="100vw"
 				alt="A photo of Nellie"
-				style={{ maxWidth: "50%", height: "auto" }}
+				style={{ width: "50%", height: "auto" }}
 			></Image>
 
 			<div id="hero-text" className="flex flex-col">
@@ -23,17 +25,17 @@ export default function Hero() {
 					Hi there! I&apos;m Nellie and I&apos;m autistic 👋 My goal is to guide
 					you and your colleagues as you start to better understand autism.
 					Starting to learn about a new area can feel daunting, but I can show
-					you why learning about autism is a need for your organisation, not a
-					want. Interested?
+					you why learning about autism is a
+					<span className="font-bold"> need </span>
+					for your organisation, not a want. Interested?
 				</p>
-				<Button
-				as={Link}
-				href="/ebe"
-				color="primary"
-				type="button"
-				radius="sm"
-				>
-				For NHS and health and social care staff
+
+				<Link href="#evidence">
+					<Image src={arrow} alt="arrow icon" width={40} height={40}></Image>
+				</Link>
+
+				<Button as={Link} href="/ebe" color="primary" type="button" radius="sm">
+					For NHS and health and social care staff
 				</Button>
 			</div>
 		</section>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WhatYouCanDo() {
 	return (
 		<section id="what-you-can-do"
-		className="flex flex-col h-screen">
+		className="flex flex-col h-screen pt-20">
 			<h2>What you can do</h2>
 			<ul>
 				<li>Take the first steps towards learning about autism</li>

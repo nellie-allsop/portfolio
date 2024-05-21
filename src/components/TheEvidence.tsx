@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TheEvidence() {
 	return (
-		<section id="evidence" className="flex flex-col h-dvh">
+		<section id="evidence" className="flex flex-col h-dvh pt-20">
 			<h2 className="heading">The evidence</h2>
 			<ul>
 				<li>
