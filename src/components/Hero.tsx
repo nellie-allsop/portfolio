@@ -15,28 +15,39 @@ export default function Hero() {
 				alt="A photo of Nellie"
 				style={{ width: "50%", height: "auto" }}
 			></Image>
+			<div className="flex flex-col">
+				<div className="flex justify-end p-4">
+					<Button
+						id="blueButton"
+						as={Link}
+						href="/ebe"
+						color="primary"
+						type="button"
+						radius="full"
+					>
+						For NHS and health and social care staff
+					</Button>
+				</div>
+				<div id="hero-text" className="flex flex-col p-6">
+					<h1 className="heading mt-44 text-9xl text-orange font-bold">
+						Autism.
+					</h1>
+					<h2 className="heading text-4xl">Where do I start?!</h2>
+					<p>
+						Hi there, I&apos;m Nellie and I&apos;m autistic 👋 My goal is to
+						guide you and your colleagues as you start to better understand
+						autism. Starting to learn about a new area can feel daunting, but I
+						can show you why learning about autism is a
+						<span className="font-bold"> need </span>
+						for your organisation, not a want.
+					</p>
+					<br></br>
+					<p>Interested?</p>
 
-			<div id="hero-text" className="flex flex-col">
-				<h1 className="heading mt-44 text-9xl text-orange font-bold">
-					Autism.
-				</h1>
-				<h2 className="heading text-4xl">Where do I start?!</h2>
-				<p>
-					Hi there! I&apos;m Nellie and I&apos;m autistic 👋 My goal is to guide
-					you and your colleagues as you start to better understand autism.
-					Starting to learn about a new area can feel daunting, but I can show
-					you why learning about autism is a
-					<span className="font-bold"> need </span>
-					for your organisation, not a want. Interested?
-				</p>
-
-				<Link href="#evidence">
-					<Image src={arrow} alt="arrow icon" width={40} height={40}></Image>
-				</Link>
-
-				<Button as={Link} href="/ebe" color="primary" type="button" radius="sm">
-					For NHS and health and social care staff
-				</Button>
+					<Link href="#evidence">
+						<Image id="arrow" src={arrow} alt="arrow icon" width={40} height={40}></Image>
+					</Link>
+				</div>
 			</div>
 		</section>
 	);

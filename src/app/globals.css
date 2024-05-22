@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, h2 {
+h1,
+h2 {
 	font-family: var(----font-paytone-one);
 }
 
@@ -10,4 +11,10 @@ p {
 	font-family: var(--font-cabin);
 }
 
+#blueButton {
+	width: 300px;
+}
 
+#arrow {
+	width: 120px;
+}
