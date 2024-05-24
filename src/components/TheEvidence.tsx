@@ -2,9 +2,10 @@ import React from "react";
 
 export default function TheEvidence() {
 	return (
-		<section id="evidence" className="flex flex-col h-dvh pt-20">
+		<section id="evidence" className="flex flex-col h-dvh pt-20 h-screen m-20">
 			<h2 className="heading">The evidence</h2>
-			<ul>
+			<div className="text-xl">
+			<ul className="list-disc">
 				<li>
 					According to the Tech Talent Charter, 15% of UK tech workers
 					identified as autistic when asked (out of a representative 500 person
@@ -22,6 +23,7 @@ export default function TheEvidence() {
 				our differences), we may excel in certain areas, and if not supported,
 				we may experience extreme distress. Here&apos;s where you come in...
 			</p>
+			</div>
 		</section>
 	);
 }

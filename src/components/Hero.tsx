@@ -24,15 +24,17 @@ export default function Hero() {
 						color="primary"
 						type="button"
 						radius="full"
+						size="lg"
 					>
-						For NHS and health and social care staff
+						<p className="text-l">For NHS and health and social care staff</p>
 					</Button>
 				</div>
 				<div id="hero-text" className="flex flex-col p-6">
-					<h1 className="heading mt-44 text-9xl text-orange font-bold">
+					<h1 className="heading text-9xl text-orange font-bold">
 						Autism.
 					</h1>
 					<h2 className="heading text-4xl">Where do I start?!</h2>
+					<div className="text-xl">
 					<p>
 						Hi there, I&apos;m Nellie and I&apos;m autistic 👋 My goal is to
 						guide you and your colleagues as you start to better understand
@@ -45,8 +47,15 @@ export default function Hero() {
 					<p>Interested?</p>
 
 					<Link href="#evidence">
-						<Image id="arrow" src={arrow} alt="arrow icon" width={40} height={40}></Image>
+						<Image
+							id="arrow"
+							src={arrow}
+							alt="arrow icon"
+							width={40}
+							height={40}
+						></Image>
 					</Link>
+				</div>
 				</div>
 			</div>
 		</section>

@@ -5,6 +5,8 @@
 h1,
 h2 {
 	font-family: var(----font-paytone-one);
+	color: #ff8e0a;
+	font-size: 36px;
 }
 
 p {
