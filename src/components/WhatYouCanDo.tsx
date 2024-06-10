@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function WhatYouCanDo() {
 	return (
 		<section id="what-you-can-do" className="flex flex-col h-screen pt-20 m-20">
-			<h2>What you can do</h2>
+			<h2 className="heading pb-4">What you can do</h2>
 			<div className="text-xl">
 			<ul className="list-disc">
 				<li>Take the first steps towards learning about autism</li>
@@ -15,10 +15,12 @@ export default function WhatYouCanDo() {
 					autistic)
 				</li>
 			</ul>
-			<p>
+			<p className="py-4">
 				I can help your organisation with any (or all) of the above. To find out
 				more:
 			</p>
+			<div id="cta-buttons" className="flex justify-center pb-4">
+				<div className="pr-2">
 			<Button
 				as={Link}
 				href="mailto:contact@nellieallsop.com"
@@ -29,6 +31,8 @@ export default function WhatYouCanDo() {
 			>
 				Email me
 			</Button>
+			</div>
+			<div className="pl-2">
 			<Button
 				as={Link}
 				href="https://calendly.com/nellieallsop"
@@ -40,7 +44,9 @@ export default function WhatYouCanDo() {
 			>
 				Book a chat
 			</Button>
-			<h2>Not convinced?</h2>
+			</div>
+			</div>
+			<h2 className="heading pb-8">Not convinced?</h2>
 			<p>
 				&quot;Working with Nellie has been impactful at an organisational, and
 				individual level. It has allowed us to review our approach and
