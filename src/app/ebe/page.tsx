@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function EbE() {
 	return (
-		<div className="flex flex-col items-center min-h-screen mx-64">
+		<div className="flex flex-col items-center min-h-screen mx-64 bg-neutral-100">
 			<h1 className="font-bold text-4xl text-blue p-2">Autism</h1>
 
 			<Button

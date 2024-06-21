@@ -30,7 +30,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={`${paytoneOne.variable} ${cabin.variable} scroll-smooth`}>
+		<html lang="en" className={`${paytoneOne.variable} ${cabin.variable} scroll-smooth bg-neutral-100`}>
 			<body>
 				<Providers>
 					{children}
