@@ -8,7 +8,7 @@ export default function Header() {
 	const [header, setHeader] = useState(false);
 	return (
 		<div>
-			<nav className="w-full text-black bg-white flex text-2xl flex-col fixed z-20 py-4">
+			<nav className="w-full text-black bg-white flex text-2xl flex-col fixed z-20 py-4 backdrop-filter backdrop-blur-lg bg-opacity-30">
 				<div className="px-3 mx-auto lg:max-w-6x1 justify-between md:items-center md:flex md:px-6">
 					<div>
 						<div className="flex justify-between items-center md:block">

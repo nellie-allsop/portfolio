@@ -66,3 +66,9 @@ For opening link in a new tab: https://stackoverflow.com/questions/65632698/how-
 Down arrow = google icon
 
 This for next time: https://www.youtube.com/watch?v=pQ7tm_7S_Us
+
+Credits for embedding a YouTube short video: https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262 and https://docs.document360.com/docs/embed-youtube-shorts
+
+Credit for glassmorphic navbar: https://www.braydoncoyer.dev/blog/build-a-glassmorphic-navbar-with-tailwindcss-backdrop-filter-and-backdrop-blur
+
+Credit for smooth scroll: https://www.youtube.com/watch?v=GLfIHsjuu7Q

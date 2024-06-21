@@ -4,7 +4,6 @@
 import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import { Providers } from "./providers";
 import { Paytone_One } from "next/font/google";
 import { Cabin } from "next/font/google";
@@ -31,7 +30,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={`${paytoneOne.variable} ${cabin.variable}`}>
+		<html lang="en" className={`${paytoneOne.variable} ${cabin.variable} scroll-smooth`}>
 			<body>
 				<Providers>
 					{children}

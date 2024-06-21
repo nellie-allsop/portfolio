@@ -13,6 +13,8 @@ export default function AboutNellie() {
 				Took a leap into the Tech sector in 2023, experiencing first hand the
 				understanding of autism in the sector
 			</p>
+
+			<iframe width="315" height="560" src="https://www.youtube.com/embed/ptWYJ9gBCt4"/>
 			<p>
 				Immersed in the current work around autism in society: National Autistic
 				Society autism insight panel member Community Advisory panel member for
