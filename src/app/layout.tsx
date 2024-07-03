@@ -1,12 +1,10 @@
-"use client";
-
-// import type { Metadata } from "next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { Providers } from "./providers";
 import { Paytone_One } from "next/font/google";
 import { Cabin } from "next/font/google";
+import type { Metadata } from "next";
 
 const cabin = Cabin({
 	subsets: ["latin"],
@@ -19,10 +17,11 @@ const paytoneOne = Paytone_One({
 	variable: "--font-paytone-one",
 });
 
-// export const metadata: Metadata = {
-//   title: 'Nellie Allsop | Aspiring dev and EbE',
-//   description: 'Created using next.js, typescript and tailwind',
-// }
+export const metadata: Metadata = {
+  title: 'Nellie Allsop | autistic expert by lived experience',
+  description: 'See how you and your business can learn more about autism',
+	viewport: 'width=device-width, initial-scale=1, maximum-scale=1'
+}
 
 export default function RootLayout({
 	children,

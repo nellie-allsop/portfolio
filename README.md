@@ -1,5 +1,7 @@
 You can check out my portfolio site here: www.nellieallsop.com
 
+*I did make use of ChatGPT for this project to help with problem solving and with things like making my work responsive.*
+
 Credit to this for helping me solve a tricky SVG problem! https://stackoverflow.com/questions/46972563/mouse-hover-not-working-as-expected-on-svg
 
 This was so useful too: https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
@@ -26,8 +28,6 @@ https://css-tricks.com/scale-svg/
 https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
 
 For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextjs
-
-Required:
 
 Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
 
@@ -72,3 +72,7 @@ Credits for embedding a YouTube short video: https://forum.freecodecamp.org/t/yo
 Credit for glassmorphic navbar: https://www.braydoncoyer.dev/blog/build-a-glassmorphic-navbar-with-tailwindcss-backdrop-filter-and-backdrop-blur
 
 Credit for smooth scroll: https://www.youtube.com/watch?v=GLfIHsjuu7Q
+
+Credit to this for help with metadata: https://dev.to/oler/resolving-viewport-duplication-in-nextjs-134-51lm
+
+For the opening of links in new tabs: https://www.geeksforgeeks.org/how-to-open-a-link-in-a-new-tab-in-nextjs/
