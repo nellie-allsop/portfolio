@@ -5,7 +5,7 @@ export default function Footer () {
     <footer className="flex p-4 justify-around">
 
   <p>Find me on LinkedIn 
-  <Link href="https://www.linkedin.com/in/nellie-allsop/" className="text-red"> here</Link>
+  <Link href="https://www.linkedin.com/in/nellie-allsop/" className="font-extrabold text-pink"> here</Link>
   </p>
     </footer>
   )

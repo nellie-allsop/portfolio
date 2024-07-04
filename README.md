@@ -1,19 +1,10 @@
 You can check out my portfolio site here: www.nellieallsop.com
 
-Colour palette idea: https://coolors.co/palette/1a535c-4ecdc4-f7fff7-ff6b6b-ffe66d
-
-Photo credit to Anthony for the presentation photo!
-
-To-do:
-
-- Make whole background of cloud go yellow even when hovering over text
-- Add in screen captures of projects
+*I did make use of ChatGPT for this project to help with problem solving and with things like making my work responsive.*
 
 Credit to this for helping me solve a tricky SVG problem! https://stackoverflow.com/questions/46972563/mouse-hover-not-working-as-expected-on-svg
 
 This was so useful too: https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
-
-Clouds background photo by <a href="https://unsplash.com/@wimvanteinde?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wim van 't Einde</a> on <a href="https://unsplash.com/photos/white-clouds-in-blue-sky-8hnTBXjJd2s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 Credit to these:
 https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css
@@ -38,10 +29,6 @@ https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
 
 For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextjs
 
-Required:
-
-- react hover video player
-
 Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
 
 https://pjausovec.medium.com/how-to-fix-error-ts7016-could-not-find-a-declaration-file-for-module-xyz-has-an-any-type-ecab588800a8
@@ -57,3 +44,35 @@ This was useful: https://www.telerik.com/blogs/how-to-use-svg-react
 Shout out to Boxy svg for the logo
 
 I used Next UI
+
+Thanks to this creator: https://www.youtube.com/watch?v=IU_qq_c_lKA
+
+https://gsap.com/community/forums/topic/19861-usage-with-typescript/
+
+https://www.youtube.com/watch?v=Z5iWr6Srsj8
+
+https://codesandbox.io/p/devbox/optimistic-nash-p90i0?file=%2Fpages%2Findex.js
+
+A helpful video on google tag manager and Next:https://www.youtube.com/watch?v=QbUfVzc23iw
+
+This for multiple fonts in a Next.js website: https://medium.com/@a.pirus/simplifying-multiple-fonts-styling-in-next-js-13-with-css-variables-cb57e9707693
+
+Really helpful for dynamic viewport height help! https://www.youtube.com/watch?v=ru3U8MHbFFI
+
+For the NHS button: https://github.com/nextui-org/nextui/issues/1993
+
+For opening link in a new tab: https://stackoverflow.com/questions/65632698/how-to-open-a-link-in-a-new-tab-in-nextjs
+
+Down arrow = google icon
+
+This for next time: https://www.youtube.com/watch?v=pQ7tm_7S_Us
+
+Credits for embedding a YouTube short video: https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262 and https://docs.document360.com/docs/embed-youtube-shorts
+
+Credit for glassmorphic navbar: https://www.braydoncoyer.dev/blog/build-a-glassmorphic-navbar-with-tailwindcss-backdrop-filter-and-backdrop-blur
+
+Credit for smooth scroll: https://www.youtube.com/watch?v=GLfIHsjuu7Q
+
+Credit to this for help with metadata: https://dev.to/oler/resolving-viewport-duplication-in-nextjs-134-51lm
+
+For the opening of links in new tabs: https://www.geeksforgeeks.org/how-to-open-a-link-in-a-new-tab-in-nextjs/

@@ -2,15 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-g:hover .cloud {
-	fill: #f2a4cf;
+h1,
+h2 {
+	font-family: var(----font-paytone-one);
+	color: #ff8e0a;
+	font-size: 36px;
 }
 
-g:hover text {
-	fill: #17ffea;
+p {
+	font-family: var(--font-cabin);
 }
 
-/* turq: "#17ffea",
-blue: "#94e1f9",
-pink: "#f2a4cf",
-yellow: "#fde072", */
+#blueButton {
+	width: 300px;
+}
+
+#arrow {
+	width: 120px;
+}
