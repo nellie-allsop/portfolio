@@ -32,6 +32,7 @@ export default function AboutNellie() {
 							</p>
 						</div>
 						<iframe
+							className="pl-2"
 							width="315"
 							height="560"
 							src="https://www.youtube.com/embed/ptWYJ9gBCt4?mute=1"
