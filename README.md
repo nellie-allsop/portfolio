@@ -1,78 +1,86 @@
-You can check out my portfolio site here: www.nellieallsop.com
+# Sole trader website
+
+**Initial project:** build a portfolio
+**Final outcome:** not really a portfolio(!) more of a business website for my sole trader work, but I adapted the project over time based on my needs
+
+You can check out the site here: **www.nellieallsop.com**
 
 *I did make use of ChatGPT for this project to help with problem solving and with things like making my work responsive.*
 
-Credit to this for helping me solve a tricky SVG problem! https://stackoverflow.com/questions/46972563/mouse-hover-not-working-as-expected-on-svg
+## References
 
-This was so useful too: https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
+- Boxy SVG
+- NextUI
+- Docs from Tailwind, NextJS etc.
+- W3 schools and MDN web docs
+- CSS tricks
 
-Credit to these:
-https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css
+- https://stackoverflow.com/questions/69679382/how-to-change-height-of-nextjs-image-tag-according-to-screen-width
 
-https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
+- https://www.perssondennis.com/articles/how-to-make-a-hero-image-in-nextjs
 
-https://stackoverflow.com/questions/28756890/fill-svg-path-element-with-a-background-image-without-tiling-or-scaling
+- https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block
 
-For fill: https://stackoverflow.com/questions/69679382/how-to-change-height-of-nextjs-image-tag-according-to-screen-width
+- https://www.geeksforgeeks.org/how-to-specify-exactly-600px-width-in-tailwind-css/
 
-For hero image: https://www.perssondennis.com/articles/how-to-make-a-hero-image-in-nextjs
+- https://www.youtube.com/watch?v=JITwwrVSteE
 
-https://medium.com/@morerahul620/how-to-add-a-video-player-in-your-next-js-project-using-react-player-8aab643217ea
+- https://pjausovec.medium.com/how-to-fix-error-ts7016-could-not-find-a-declaration-file-for-module-xyz-has-an-any-type-ecab588800a8
 
-https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block
+- Helpful for grid in tailwind: https://refine.dev/blog/tailwind-grid/#setting-size-with-span and for grid in general https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-area
 
-https://www.geeksforgeeks.org/how-to-specify-exactly-600px-width-in-tailwind-css/
+- A nice website for portfolio advice: https://www.upwork.com/en-gb/resources/4-ways-create-successful-freelancer-portfolio
 
-https://css-tricks.com/scale-svg/
+- Huge credit to this person for the hamburger menu: https://www.youtube.com/watch?v=EtPRSidpxSU&t=612s
 
-https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
+- This was useful: https://www.telerik.com/blogs/how-to-use-svg-react
 
-For future: https://upmostly.com/nextjs/how-to-link-to-an-external-page-in-nextjs
+- Thanks to this creator: https://www.youtube.com/watch?v=IU_qq_c_lKA
 
-Credit to: https://www.youtube.com/watch?v=JITwwrVSteE
+- https://gsap.com/community/forums/topic/19861-usage-with-typescript/
 
-https://pjausovec.medium.com/how-to-fix-error-ts7016-could-not-find-a-declaration-file-for-module-xyz-has-an-any-type-ecab588800a8
+- https://www.youtube.com/watch?v=Z5iWr6Srsj8
 
-Helpful for grid in tailwind: https://refine.dev/blog/tailwind-grid/#setting-size-with-span and for grid in general https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-area
+- https://codesandbox.io/p/devbox/optimistic-nash-p90i0?file=%2Fpages%2Findex.js
 
-A nice website for portfolio advice: https://www.upwork.com/en-gb/resources/4-ways-create-successful-freelancer-portfolio
+- A helpful video on google tag manager and Next:https://www.youtube.com/watch?v=QbUfVzc23iw
 
-Huge credit to this person for the hamburger menu: https://www.youtube.com/watch?v=EtPRSidpxSU&t=612s
+- This for multiple fonts in a Next.js website: https://medium.com/@a.pirus/simplifying-multiple-fonts-styling-in-next-js-13-with-css-variables-cb57e9707693
 
-This was useful: https://www.telerik.com/blogs/how-to-use-svg-react
+- Really helpful for dynamic viewport height help! https://www.youtube.com/watch?v=ru3U8MHbFFI
 
-Shout out to Boxy svg for the logo
+- For the NHS button: https://github.com/nextui-org/nextui/issues/1993
 
-I used Next UI
+- Down arrow = Google icon
 
-Thanks to this creator: https://www.youtube.com/watch?v=IU_qq_c_lKA
+- Credits for embedding a YouTube short video: https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262 and https://docs.document360.com/docs/embed-youtube-shorts
 
-https://gsap.com/community/forums/topic/19861-usage-with-typescript/
+- Credit for glassmorphic navbar: https://www.braydoncoyer.dev/blog/build-a-glassmorphic-navbar-with-tailwindcss-backdrop-filter-and-backdrop-blur
 
-https://www.youtube.com/watch?v=Z5iWr6Srsj8
+- Credit for smooth scroll: https://www.youtube.com/watch?v=GLfIHsjuu7Q
 
-https://codesandbox.io/p/devbox/optimistic-nash-p90i0?file=%2Fpages%2Findex.js
+- Credit to this for help with metadata: https://dev.to/oler/resolving-viewport-duplication-in-nextjs-134-51lm
 
-A helpful video on google tag manager and Next:https://www.youtube.com/watch?v=QbUfVzc23iw
+- For the opening of links in new tabs: https://www.geeksforgeeks.org/how-to-open-a-link-in-a-new-tab-in-nextjs/ and https://stackoverflow.com/questions/65632698/how-to-open-a-link-in-a-new-tab-in-nextjs
 
-This for multiple fonts in a Next.js website: https://medium.com/@a.pirus/simplifying-multiple-fonts-styling-in-next-js-13-with-css-variables-cb57e9707693
+- Credit to this for helping me solve a tricky SVG problem! https://stackoverflow.com/questions/46972563/mouse-hover-not-working-as-expected-on-svg
 
-Really helpful for dynamic viewport height help! https://www.youtube.com/watch?v=ru3U8MHbFFI
+- This was so useful too: https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
 
-For the NHS button: https://github.com/nextui-org/nextui/issues/1993
+- https://stackoverflow.com/questions/37588405/how-to-crop-svg-file-within-html-css
 
-For opening link in a new tab: https://stackoverflow.com/questions/65632698/how-to-open-a-link-in-a-new-tab-in-nextjs
+- https://stackoverflow.com/questions/3796025/fill-svg-path-element-with-a-background-image
 
-Down arrow = google icon
+- https://stackoverflow.com/questions/28756890/fill-svg-path-element-with-a-background-image-without-tiling-or-scaling
 
-This for next time: https://www.youtube.com/watch?v=pQ7tm_7S_Us
+- https://medium.com/@morerahul620/how-to-add-a-video-player-in-your-next-js-project-using-react-player-8aab643217ea
 
-Credits for embedding a YouTube short video: https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262 and https://docs.document360.com/docs/embed-youtube-shorts
+- https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
 
-Credit for glassmorphic navbar: https://www.braydoncoyer.dev/blog/build-a-glassmorphic-navbar-with-tailwindcss-backdrop-filter-and-backdrop-blur
+- https://www.youtube.com/watch?v=pQ7tm_7S_Us
 
-Credit for smooth scroll: https://www.youtube.com/watch?v=GLfIHsjuu7Q
+## Credits
 
-Credit to this for help with metadata: https://dev.to/oler/resolving-viewport-duplication-in-nextjs-134-51lm
-
-For the opening of links in new tabs: https://www.geeksforgeeks.org/how-to-open-a-link-in-a-new-tab-in-nextjs/
+📷 Photography: Monika Świat (@xsimrrx on Instagram)
+🆘 Wireframing, branding help and general guidance: Alex Hort-Francis
+🎬 Film: Tech Educators and Chris Seaman
