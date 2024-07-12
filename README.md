@@ -14,6 +14,7 @@ _I did make use of ChatGPT for this project to help with problem solving and wit
 - Docs from Tailwind, NextJS etc.
 - W3 schools and MDN web docs
 - CSS tricks
+- Google fonts
 
 - https://stackoverflow.com/questions/69679382/how-to-change-height-of-nextjs-image-tag-according-to-screen-width
 

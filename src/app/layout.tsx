@@ -18,10 +18,10 @@ const paytoneOne = Paytone_One({
 });
 
 export const metadata: Metadata = {
-  title: 'Nellie Allsop | autistic expert by lived experience',
-  description: 'See how you and your business can learn more about autism',
-	viewport: 'width=device-width, initial-scale=1, maximum-scale=1'
-}
+	title: "Nellie Allsop | autistic expert by lived experience",
+	description: "See how you and your business can learn more about autism",
+	viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+};
 
 export default function RootLayout({
 	children,
@@ -29,7 +29,10 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={`${paytoneOne.variable} ${cabin.variable} scroll-smooth bg-neutral-100`}>
+		<html
+			lang="en"
+			className={`${paytoneOne.variable} ${cabin.variable} scroll-smooth bg-neutral-100`}
+		>
 			<body>
 				<Providers>
 					{children}
