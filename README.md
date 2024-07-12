@@ -5,7 +5,7 @@
 
 You can check out the site here: **www.nellieallsop.com**
 
-*I did make use of ChatGPT for this project to help with problem solving and with things like making my work responsive.*
+_I did make use of ChatGPT for this project to help with problem solving and with things like making my work responsive._
 
 ## References
 
@@ -78,6 +78,8 @@ You can check out the site here: **www.nellieallsop.com**
 - https://sheelahb.com/blog/create-art-directed-responsive-svg-hero-image/
 
 - https://www.youtube.com/watch?v=pQ7tm_7S_Us
+
+- https://nira.com/how-to-merge-branches-in-github/
 
 ## Credits
 
