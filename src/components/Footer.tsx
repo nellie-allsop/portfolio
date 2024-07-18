@@ -13,7 +13,17 @@ export default function Footer() {
 					here
 				</Link>
 			</p>
-			<p>&copy; 2024 Nellie Allsop</p>
+			<div className="text-xs">
+				<p>
+					&copy; 2024 Nellie Allsop, with thanks to 🧠{" "}
+					<Link href="https://www.linkedin.com/in/hortfrancis/">
+						{" "}
+						Alex Hort-Francis
+					</Link>{" "}
+					and 📸
+					<Link href="https://www.instagram.com/xsimrrx/"> Monika Świat</Link>
+				</p>
+			</div>
 		</footer>
 	);
 }
