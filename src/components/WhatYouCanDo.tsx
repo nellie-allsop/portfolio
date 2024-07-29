@@ -87,10 +87,9 @@ export default function WhatYouCanDo() {
 							href="https://codebar.io/"
 						>
 							{" "}
-							codebar 
-						</Link>
-						{" "}
-						 Director
+							codebar
+						</Link>{" "}
+						Director
 					</p>
 				</div>
 			</div>

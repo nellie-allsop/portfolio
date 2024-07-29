@@ -14,7 +14,6 @@ export default function Hero() {
 				src={hero}
 				sizes="(max-width:768px) 100vw, 50vw"
 				alt="A photo of Nellie"
-				
 			></Image>
 			</div>
 			<div className="flex flex-col w-full md:w-1/2 p-6 md:p-12">

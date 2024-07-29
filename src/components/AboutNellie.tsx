@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import speaking from "/public/roots-to-business-photo.jpg";
 
 export default function AboutNellie() {
 	return (
@@ -8,7 +10,20 @@ export default function AboutNellie() {
 			className="flex flex-col h-dvh pt-20 items-center"
 		>
 			<div className="flex flex-col w-full md:w-1/2 p-3 md:p-6">
-				<h2 className="heading text-2xl md:text-4xl pb-6">About Nellie</h2>
+				<h2 className="heading text-2xl md:text-4xl">About Nellie</h2>
+				<Image
+					className="rounded-r-full pt-6"
+					src={speaking}
+					sizes="(max-width:768px) 100vw, 50vw"
+					alt="A photo of Nellie holding a microphone and speaking as part of a panel of young professionals"
+				></Image>
+				<Link
+					className="font-bold text-right pb-4"
+					target="_blank"
+					href="https://www.linkedin.com/in/robdodsworthphotography/"
+				>
+					📷 Rob Dodsworth
+				</Link>{" "}
 				<div className="text-lg md:text-2xl">
 					<p>
 						Prior to becoming self employed, I spent several years working at
