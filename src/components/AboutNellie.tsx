@@ -50,7 +50,7 @@ export default function AboutNellie() {
 							className="pl-2"
 							width="315"
 							height="560"
-							src="https://www.youtube.com/embed/ptWYJ9gBCt4?mute=1"
+							src="https://www.youtube-nocookie.com/embed/ptWYJ9gBCt4?mute=1"
 						/>
 						<h2 className="heading text-2xl md:text-4xl pb-6 col-span-2 pt-4">
 							Current voluntary roles
