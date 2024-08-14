@@ -47,6 +47,7 @@ export default function AboutNellie() {
 							</p>
 						</div>
 						<iframe
+							sandbox="allow-scripts"
 							className="pl-2"
 							width="315"
 							height="560"
