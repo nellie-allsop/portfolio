@@ -82,6 +82,8 @@ _I did make use of ChatGPT for this project to help with problem solving and wit
 
 - https://nira.com/how-to-merge-branches-in-github/
 
+- To remove cookies on the site: https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode and https://stackoverflow.com/questions/44837450/recommended-method-to-prevent-any-content-inside-iframe-from-setting-cookies
+
 ## Credits
 
 📷 Photography: Monika Świat (@xsimrrx on Instagram)
