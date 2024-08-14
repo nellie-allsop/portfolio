@@ -1,4 +1,3 @@
-import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { Providers } from "./providers";
@@ -38,7 +37,6 @@ export default function RootLayout({
 					{children}
 					<Footer />
 				</Providers>
-				<GoogleTagManager gtmId="G-ZJ22HDS4PL" />
 			</body>
 		</html>
 	);
