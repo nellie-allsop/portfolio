@@ -17,8 +17,9 @@ const paytoneOne = Paytone_One({
 });
 
 export const metadata: Metadata = {
-	title: "Nellie Allsop | autistic expert by lived experience",
-	description: "See how you and your business can learn more about autism",
+	title: "Nellie Allsop: autistic trainer | Workforce training",
+	description:
+		"Autism training and consultancy from Norwich-based autistic trainer Nellie Allsop. Every workplace needs to be autism-inclusive - is yours? Get started now!",
 	viewport: "width=device-width, initial-scale=1, maximum-scale=1",
 };
 
