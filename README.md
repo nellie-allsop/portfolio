@@ -84,6 +84,8 @@ _I did make use of ChatGPT for this project to help with problem solving and wit
 
 - To remove cookies on the site: https://support.google.com/youtube/answer/171780?hl=en-GB#zippy=%2Cturn-on-privacy-enhanced-mode and https://stackoverflow.com/questions/44837450/recommended-method-to-prevent-any-content-inside-iframe-from-setting-cookies
 
+-For adding my own favicon, these were helpful https://www.geeksforgeeks.org/next-js-next-head/ and https://www.edgeoftheweb.co.uk/blog/how-to-add-a-next-js-favicon
+
 ## Credits
 
 📷 Photography: Monika Świat (@xsimrrx on Instagram)
