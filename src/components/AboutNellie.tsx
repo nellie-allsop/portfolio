@@ -33,7 +33,7 @@ export default function AboutNellie() {
 						Confed Expo and receive my autism diagnosis.
 					</p>
 					<br />
-					<div className="flex items-center flex-col md:grid md:grid-cols-2 md:items-stretch">
+					<div className="flex items-center flex-col md:grid md:grid-cols-1 md:items-stretch">
 						<div>
 							<p className="pb-4">
 								After leaving that role in 2023, I took a leap into the tech
@@ -43,16 +43,17 @@ export default function AboutNellie() {
 								<br />
 								<br />I continue to remain immersed in current work around
 								autism in society, while also working on my coding skills
-								(slowly but surely!):
+								(slowly but surely!)
 							</p>
 						</div>
-						<iframe
+						{/* <iframe
+							title="Video of Nellie speaking about what they gained from being on a full stack development course with the organisation Tech Educators"
 							sandbox="allow-scripts"
 							className="pl-2"
 							width="315"
 							height="560"
 							src="https://www.youtube-nocookie.com/embed/ptWYJ9gBCt4?mute=1"
-						/>
+						/> */}
 						<h2 className="heading text-2xl md:text-4xl pb-6 col-span-2 pt-4">
 							Current voluntary roles
 						</h2>

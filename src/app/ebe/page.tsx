@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import EbEhero from "/public/EbEHero.jpg";
+import Nellie from "/public/Nellie-2014.jpg";
 
 export const metadata: Metadata = {
 	title: "EbE",
@@ -20,8 +21,8 @@ export default function EbE() {
 					sizes="(max-width:728px) 100vw, 50vw"
 					alt="Two autistic friends sitting outside using stim toys and laughing at their phones"
 				></Image>
-				<h1 className="heading font-bold text-4xl md:text-7xl text-blue">
-					Autism
+				<h1 className="heading font-bold text-4xl md:text-7xl text-blue py-4">
+					Autistic trainer
 				</h1>
 
 				<div className="flex flex-col items-center text-lg md:text-2xl">
@@ -51,7 +52,35 @@ export default function EbE() {
 							(Tier 2)
 						</li>
 					</ul>
-					<h2 className="heading text-2xl md:text-4xl pb-6">My story</h2>
+					<p className="py-4">
+						&quot;I had the pleasure of working with Nellie to co-facilitate 3
+						full days of Autism training for my colleagues. Nellie is absolutely
+						fantastic to work with and I&apos;m very much looking forward to
+						facilitating this training again with her later in the year! Nellie
+						is a fountain of knowledge and uses her own experiences so well to
+						support professionals with understanding the challenges autistic
+						people face when accessing mental health services.&quot;
+					</p>
+					<p className="text-xl md:text-2xl pb-6">
+						Jessika Morgan-McNeil,
+						<Link
+							className="font-bold text-pink"
+							target="_blank"
+							href="https://swlstg.nhs.uk/"
+						>
+							{" "}
+							SWLSTG NHS trust
+						</Link>{" "}
+					</p>
+					<h2 className="heading text-2xl md:text-4xl pb-4 font-bold">
+						My story
+					</h2>
+					<Image
+						src={Nellie}
+						sizes="(max-width:768px) 100vw, 50vw"
+						alt="A photo of Nellie from 2014"
+						className="pb-4"
+					></Image>
 					<p>
 						I first experienced intense and prolonged mental health difficulties
 						whilst studying at University (2014-17). Obsessions and compulsions
@@ -73,17 +102,17 @@ export default function EbE() {
 							Return to the main site
 						</Button>
 					</div>
+					<p>
+						Photo and alt text by{" "}
+						<a href="https://unsplash.com/@hikiapp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+							Hiki App
+						</a>{" "}
+						on{" "}
+						<a href="https://unsplash.com/photos/two-autistic-friends-sitting-outside-using-stim-toys-and-laughing-at-their-phones-aM-BRQtrng8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+							Unsplash
+						</a>
+					</p>
 				</div>
-				<p>
-					Photo and alt text by{" "}
-					<a href="https://unsplash.com/@hikiapp?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-						Hiki App
-					</a>{" "}
-					on{" "}
-					<a href="https://unsplash.com/photos/two-autistic-friends-sitting-outside-using-stim-toys-and-laughing-at-their-phones-aM-BRQtrng8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
-						Unsplash
-					</a>
-				</p>
 			</div>
 		</section>
 	);
