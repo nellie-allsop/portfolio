@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import speaking from "/public/roots-to-business-photo.jpg";
+import badge from "/public/ambassador.png"
 
 export default function AboutNellie() {
 	return (
@@ -69,7 +70,7 @@ export default function AboutNellie() {
 								autism insight panel member
 							</li>
 							<li>
-								Student (with coaching experience) at the charity
+								Student and coach at the charity
 								<Link
 									className="font-bold"
 									target="_blank"
@@ -91,16 +92,6 @@ export default function AboutNellie() {
 								</Link>
 							</li>
 							<li>
-								<Link
-									className="font-bold"
-									target="_blank"
-									href="https://noteforms.com/notion-ambassadors-influencers"
-								>
-									{" "}
-									Notion Ambassador
-								</Link>
-							</li>
-							<li>
 								Volunteer developer @
 								<Link
 									className="font-bold"
@@ -111,7 +102,22 @@ export default function AboutNellie() {
 									pensano.dev
 								</Link>
 							</li>
+							<li>
+								<Link
+									className="font-bold"
+									target="_blank"
+									href="https://noteforms.com/notion-ambassadors-influencers"
+								>
+									{" "}
+									Notion Ambassador
+								</Link>
+							</li>
 						</ul>
+						<Image
+					src={badge}
+					// sizes="(max-width:768px) 100vw, 50vw"
+					alt="A Notion ambassador badge"
+				></Image>
 					</div>
 				</div>
 			</div>
