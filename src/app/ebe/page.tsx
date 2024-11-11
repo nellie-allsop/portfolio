@@ -38,7 +38,7 @@ export default function EbE() {
 								The National Autism Trainer Programme
 							</Link>{" "}
 							(Anna Freud and AT-Autism) - Adult community mental health
-							settings
+							settings, and health and justice settings
 						</li>
 						<li>
 							<Link
