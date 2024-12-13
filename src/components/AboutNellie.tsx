@@ -91,7 +91,7 @@ export default function AboutNellie() {
 									Autism Centre of Excellence Cambridge
 								</Link>
 							</li>
-							<li>
+							{/* <li>
 								Volunteer developer @
 								<Link
 									className="font-bold"
@@ -101,7 +101,7 @@ export default function AboutNellie() {
 									{" "}
 									pensano.dev
 								</Link>
-							</li>
+							</li> */}
 							<li>
 								<Link
 									className="font-bold"
