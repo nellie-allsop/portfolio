@@ -10,7 +10,7 @@ import Header from "@/components/Header";
 export default function Home() {
 	return (
 		<main>
-			<div>
+			<div className="flex flex-col gap-y-8 md:gap-y-12">
 				<Header />
 				<Hero />
 				<TheEvidence />

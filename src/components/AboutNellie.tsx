@@ -7,9 +7,10 @@ import badge from "/public/ambassador.png"
 export default function AboutNellie() {
 	return (
 		<section
-			id="about-nellie"
-			className="flex flex-col h-dvh pt-20 items-center"
+			className="flex flex-col h-dvh items-center"
 		>
+			<div className ="absolute -mt-20"
+			id="about-nellie"/>
 			<div className="flex flex-col w-full md:w-1/2 p-3 md:p-6">
 				<h2 className="heading text-2xl md:text-4xl">About Nellie</h2>
 				<Image

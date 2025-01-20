@@ -4,9 +4,10 @@ import Link from "next/link";
 export default function WhatYouCanDo() {
 	return (
 		<section
-			id="what-you-can-do"
-			className="flex flex-col h-dvh pt-20 items-center"
+			className="flex flex-col h-dvh items-center"
 		>
+					<div className ="absolute -mt-20"
+			id="what-you-can-do"/>
 			<div className="flex flex-col w-full md:w-1/2 p-3 md:p-6">
 				<h2 className="heading text-2xl md:text-4xl pb-6">What you can do</h2>
 				<div className="text-lg md:text-2xl">

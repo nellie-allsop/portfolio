@@ -7,12 +7,14 @@ import arrow from "/public/arrow.svg";
 
 export default function Hero() {
 	return (
-		<section id="hero" className="flex h-dvh pt-20">
+		<section className="flex flex-col md:flex-row md:items-center h-dvh">
+					<div className ="absolute -mt-20"
+			id="hero"/>
 			<div className="w-full md:w-1/2">
 			<Image
-				className="rounded-r-full object-cover w-full h-full"
+				className="rounded-r-full object-cover w-full md:h-full h-96 pr-6"
 				src={hero}
-				sizes="(max-width:768px) 100vw, 50vw"
+				// sizes="(max-width:768px) 100vw, 50vw"
 				alt="A photo of Nellie"
 			></Image>
 			</div>
@@ -31,9 +33,9 @@ export default function Hero() {
 						<p className="text-l">For NHS and health and social care staff</p>
 					</Button>
 				</div>
-				<div id="hero-text" className="flex flex-col mt-4 md:mt-12">
+				<div id="hero-text" className="flex flex-col gap-y-6 mt-4 md:mt-12">
 					<h1 className="heading text-4xl md:text-9xl text-orange font-bold">Autism.</h1>
-					<h2 className="heading text-2xl md:text-4xl pb-6">Where do I start?!</h2>
+					<h2 className="heading text-2xl md:text-4xl">Where do I start?!</h2>
 					<div className="text-lg md:text-2xl">
 						<p>
 							Hi there, I&apos;m Nellie and I&apos;m autistic 👋 My goal is to

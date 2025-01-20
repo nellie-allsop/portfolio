@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function Contact() {
 	return (
 		<section
-			id="contact"
-			className="flex flex-col items-center h-dvh pt-20"
+			
+			className="flex flex-col items-center h-dvh"
 		>
+					<div className ="absolute -mt-20"
+			id="contact"/>
 			<div className="flex flex-col items-center w-full md:w-1/2 p-3 md:p-6">
 				<h2 className="heading text-3xl md:text-7xl pb-6">Contact</h2>
 				<div className="text-2xl md:text-4xl">

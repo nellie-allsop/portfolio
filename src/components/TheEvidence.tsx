@@ -3,7 +3,9 @@ import Link from "next/link";
 
 export default function TheEvidence() {
 	return (
-		<section id="evidence" className="flex flex-col pt-20 items-center h-dvh">
+		<section className="flex flex-col items-center h-dvh">
+					<div className ="absolute -mt-20"
+			id="evidence"/>
 			<div className="flex flex-col w-full md:w-1/2 p-3 md:p-6">
 				<h2 className="heading text-2xl md:text-4xl pb-6">The evidence</h2>
 				<div className="text-lg md:text-2xl">
