@@ -69,7 +69,21 @@ export default function EbE() {
 							href="https://swlstg.nhs.uk/"
 						>
 							{" "}
-							SWLSTG NHS trust
+							South West London and St George's Mental Health NHS Trust
+						</Link>{" "}
+					</p>
+					<p className="py-4">
+						&quot;Nellie and I co-facilitated the NATP autism course over the course of three days to a cohort of my team colleagues recently.  From the outset Nellie was extremely helpful, organised and containing in her communication with me and support in planning the roll out of the course.  I felt very supported by her both in the planning and the facilitation of the course which made it all so much smoother.  She really knew her stuff in terms of content and her calm and consistent manner throughout the course were notable.  My colleagues commented on her enthusiasm for the subject and hugely appreciated her generosity in sharing personal accounts where appropriate to increase insight and understanding.  Her delivery of the course was  just great.  I am really looking forward to working with Nellie again in the future.&quot;
+					</p>
+					<p className="text-xl md:text-2xl pb-6">
+						Zena Paterson, Clinical Psychologist,
+						<Link
+							className="font-bold text-pink"
+							target="_blank"
+							href="https://www.dorsethealthcare.nhs.uk/"
+						>
+							{" "}
+							Dorset HealthCare University NHS Foundation Trust
 						</Link>{" "}
 					</p>
 					<h2 className="heading text-2xl md:text-4xl pb-4 font-bold">
