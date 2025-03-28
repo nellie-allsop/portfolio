@@ -60,17 +60,28 @@ export default function AboutNellie() {
 							Current voluntary roles
 						</h2>
 						<ul className="list-disc col-span-2 p-4">
+						<li>
+								<Link
+									className="font-bold"
+									target="_blank"
+									href="https://autismaction.org.uk/get-involved/cap/"
+								>
+									Autism Action 
+									{" "}
+								</Link>
+								Community Advisory Panel member
+							</li>
 							<li>
 								<Link
 									className="font-bold"
 									target="_blank"
-									href="https://www.autism.org.uk"
+									href="https://www.autism.org.uk/get-involved/autism-insight-panel"
 								>
 									National Autistic Society
 								</Link>{" "}
 								autism insight panel member
 							</li>
-							<li>
+							{/* <li>
 								Student and coach at the charity
 								<Link
 									className="font-bold"
@@ -80,18 +91,8 @@ export default function AboutNellie() {
 									{" "}
 									codebar
 								</Link>
-							</li>
-							<li>
-								Community Advisory panel member for the
-								<Link
-									className="font-bold"
-									target="_blank"
-									href="https://www.autismcentreofexcellence.org/"
-								>
-									{" "}
-									Autism Centre of Excellence Cambridge
-								</Link>
-							</li>
+							</li> */}
+
 							{/* <li>
 								Volunteer developer @
 								<Link
