@@ -53,6 +53,20 @@ export default function EbE() {
 						</li>
 					</ul>
 					<p className="py-4">
+						&quot;Delivering the three-day National Autism Trainer Programme with Nellie is always a joy. She is a skilled and knowledgeable educator, bringing a valuable combination of professionalism, warmth and lived experience that she weaves through the learning in ways that feel natural and illuminating, something consistently highlighted by participants in their glowing feedback. I&apos;m looking forward to our next training together.&quot;
+					</p>
+					<p className="text-xl md:text-2xl pb-6">
+						Eva Eastman, 
+						<Link
+							className="font-bold text-pink"
+							target="_blank"
+							href="http://evaeastman.com"
+						>
+							{" "}
+							Occupational therapist, researcher and trainer
+						</Link>{" "}
+					</p>
+					<p className="py-4">
 						&quot;I had the pleasure of working with Nellie to co-facilitate 3
 						full days of Autism training for my colleagues. Nellie is absolutely
 						fantastic to work with and I&apos;m very much looking forward to
