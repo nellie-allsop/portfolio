@@ -4,13 +4,22 @@ export default function Footer() {
 	return (
 		<footer className="flex flex-col p-4 justify-center items-center">
 			<p className="p-2">
-				Find me on LinkedIn
+				Find me on 
 				<Link
 					href="https://www.linkedin.com/in/nellie-allsop/"
 					className="font-extrabold text-pink"
 				>
 					{" "}
-					here
+					LinkedIn
+					{" "}
+				</Link>
+				 and
+								<Link
+					href="https://www.instagram.com/nellie.allsop/"
+					className="font-extrabold text-pink"
+				>
+					{" "}
+					Instagram
 				</Link>
 			</p>
 			<div className="text-xs">
