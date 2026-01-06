@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import hero from "/public/Hero.jpg";
+import hero from "/public/Candid.jpg";
 import Link from "next/link";
 import { Button } from "@nextui-org/react";
 import arrow from "/public/arrow.svg";
