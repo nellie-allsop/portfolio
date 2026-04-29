@@ -49,7 +49,7 @@ export default function EbE() {
 								Oliver McGowan Mandatory Training on Learning Disability and
 								Autism programme
 							</Link>{" "}
-							(Tier 2)
+							(Tiers 1 and 2)
 						</li>
 					</ul>
 					<p className="py-4">
